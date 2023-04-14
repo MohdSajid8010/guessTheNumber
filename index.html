@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guess-the-number-Game</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <h2 class="textCenter">Guess the number</h2><br>
+    <form id="form" class="container">
+
+        <div class="result">
+            <label for="userInput">Guess any no 0 to 100.</label>
+            <input type="number" id="userInput" min="0" max="100" required autofocus placeholder="enter no here">
+        </div>
+
+        <div class="btn">
+            <!-- <button type="submit" id="button" class="submit-btn" >submit</button>
+        <button type="button" id="submit" disabled>start again</button> -->
+            <button type="submit" id="submitBtn" class="submit-btn">submit</button>
+            <button type="button" id="startAgainB" disabled>start again</button>
+        </div>
+
+        <div class="result">
+            <div id="resUlt"></div>
+            <div id="arrAy"></div>
+        </div>
+
+    </form>
+    <!-- onsubmit="UserInput()" -->
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
